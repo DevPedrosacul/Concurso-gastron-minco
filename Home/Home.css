@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans+Extra+Condensed:ital,wght@0,1..1000;1,1..1000&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ou';
+    background-color: #F5F5F5;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    font-size: medium;
+}
+.cab{
+    display: flex;
+    flex-direction: row;
+}
+.links , h2, h3 {
+    padding: 10PX;
+    margin: 10PX;
+}
+
+.vaiDeBet h3, .vaiDeBet h2, .vaiDeBet .links {
+    background-color: #F2C230;
+}
+.logo{
+   padding: 10px 10px 10px 0px;
+   margin: 10px;
+}
+.icon{
+    margin: 10px 0px 10px 10px;
+    padding: 10px 0px 10px 10px;
+}
+nav{
+    align-items: center;
+}
+
+.home  {
+    display: flex;
+    justify-content: center;
+}
+.vaiDeBet{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #F2C230 ;
+    margin: auto;
+    padding: 4%;
+    
+}
+
+.vaiDeBet img {
+    background-color: #F2C230;
+}
+.vaiDeBet input{
+    padding: 10px 15px;
+    background-color: black;
+    border-radius: 10px;
+    color: #F2C230;
+    border-color: #F2C230;
+}
+
+.text{
+    background-color: #F2C230;
+    font-size: x-large;
+}
+.mais-votados{
+    margin: 50px 0px;
+    font-size: x-large;
+    justify-content: center;
+    display: grid;
+  }
+.social-midia{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+ .sobre p{
+    margin: 5px 0px 15px 15%;
+    font-size: 250%;
+    display: grid;
+    color: #464646;
+    font-weight: bolder;
+    background-color: #F2C230;
+ } 
+ .sobre h3{
+    margin: 0px 0px 0px 14%;
+    display: grid;
+    color: #464646;
+    background-color: #F2C230;
+    font-size: 90%;
+ }
+.sobre div{
+    background-color: #F2C230;
+    padding: 55px 55px 50px 55px;
+}
+.roda-pe div, h5 {
+    margin: 25px auto auto auto  ;
+   display: grid;
+    color: #464646;
+    font-weight: bolder;
+    background-color: #Fc9401;
+
+}
+.pe{
+    background-color: #3BD972;
+    margin: auto;
+    padding: 10px;
+    font-size: 200%;
+    color: #464646;
+    }
+
